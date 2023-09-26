@@ -1,0 +1,67 @@
+/* Стили для страницы "Регистрация" */
+.mainReg {
+    align-items: center;
+}
+
+.registerBlock {
+    width: 50%;
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registerForm {
+    width: 70%;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.registerForm fieldset {
+    border: 0px solid silver;
+}
+
+.registerForm fieldset label input {
+    margin-left: 50px;
+    width: 100%;
+    height: 30px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    border: 0px solid silver;
+}
+
+.regButton {
+    margin-top: 30px;
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    font-family: "Comfortaa";
+    border: 0px solid silver;
+    margin-left: calc(30% + 53.5px);
+}
+
+.regButton:hover {
+    cursor: pointer;
+    background: #802BB1;
+    color: #D1D7E0;
+}
+
+.regButton:active {
+    background: #564F6F;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+    .registerBlock {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .registerBlock {
+        width: 90%;
+        font-size: 0.85em;
+    }
+}

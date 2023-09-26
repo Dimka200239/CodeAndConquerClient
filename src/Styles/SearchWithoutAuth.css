@@ -1,0 +1,69 @@
+/* Стили для страницы "Поиск без авторизации" */
+.mainFindTasks {
+    align-items: center;
+}
+
+.findTasksBlock {
+    width: 90%;
+    height: 600px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.findTasksForm {
+    width: 90%;
+    align-items: center;
+    border: 0px solid silver;
+    display: flex;
+    justify-content: space-around;
+}
+
+.findTasksForm input {
+    width: 70%;
+    height: 30px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    border: 0px solid silver;
+}
+
+.findTasksButton {
+    border-radius: 5px;
+    width: 15%;
+    height: 100%;
+    font-family: "Comfortaa";
+    border: 0px solid silver;
+}
+
+.findTasksButton:hover {
+    cursor: pointer;
+    background: #802BB1;
+    color: #D1D7E0;
+}
+
+.findTasksButton:active {
+    background: #564F6F;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+    .findTasksBlock {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .findTasksBlock {
+        width: 90%;
+        font-size: 0.85em;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .findTasksBlock {
+        width: 100%;
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,43 @@
+/* Стили для всех элементов внутри header */
+.header {
+    height: 50px;
+    min-width: 620px;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.75);
+    color: #D1D7E0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+@media screen and (max-width: 620px) {
+    .header {
+        font-size: 1.2em;
+    }
+}
+
+.headerSiteName h1 {
+    margin: auto;
+    margin-left: 10px;
+}
+
+.headerNavigation nav {
+    margin-right: 10px;
+}
+
+.headerNavigation nav a {
+    margin-right: 15px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #D1D7E0;
+}
+
+.header a:hover {
+    color: #802BB1;
+}
+
+.header a:active {
+    color: #564F6F;
+}

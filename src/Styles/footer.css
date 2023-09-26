@@ -1,0 +1,36 @@
+/* Стили для всех элементов внутри footer */
+.footer {
+    height: 150px;
+    min-width: 620px;
+    color: #D1D7E0;
+    box-shadow: 0 -10px 10px -10px rgba(0, 0, 0, .75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.contact {
+    margin-left: 10px;
+}
+
+.contact span {
+    margin-left: 10px;
+}
+
+.siteMap {
+    margin-right: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #D1D7E0;
+}
+
+.footer a:hover {
+    color: #802BB1;
+}
+
+.footer a:active {
+    color: #564F6F;
+}

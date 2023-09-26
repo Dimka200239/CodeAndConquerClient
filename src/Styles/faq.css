@@ -1,0 +1,35 @@
+/* Стили для страницы "Часто задаваемые вопросы" */
+
+.ANQ {
+    width: 90%;
+    min-height: calc(100vh - 150px - 50px);
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border: 0px solid #D1D7E0;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainFaq {
+    align-items: center;
+}
+
+.ANQBlock {
+    border: 1px solid #D1D7E0;
+    border-radius: 5px;
+    width: calc(100% - 10px);
+    margin-bottom: 20px;
+    min-height: calc((100vh - 150px - 50px) / 3);
+    padding: 10px;
+}
+
+.question {
+}
+
+.answer {
+    margin-left: 20px;
+    word-break: break-all;
+}

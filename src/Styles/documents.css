@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: local("Comfortaa"), url("../fonts/Comfortaa.ttf") format("truetype");
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+}
+
+.clear {
+    clear: both;
+    float: left;
+}
+
+p {
+    text-indent: 20px;
+    text-align:justify;
+    margin-right: 5px;
+}
+
+/* Стили для всех элементов внутри body */
+body {
+    width: 100%;
+    min-height: 100vh;
+    min-width: 620px;
+    padding: 0;
+    margin: 0;
+    font-family: "Comfortaa";
+    display: flex;
+    flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #2D283E;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

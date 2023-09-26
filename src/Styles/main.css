@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: local("Comfortaa"), url("../fonts/Comfortaa.ttf") format("truetype");
+}
+
+/* Стили для всех элементов внутри main */
+.main {
+    flex: 1 0 auto;
+    color: #D1D7E0;
+    font-size: 1.2em;
+    min-width: 620px;
+    min-height: calc(100vh - 150px - 50px);
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 620px) {
+    .main {
+        font-size: 1.8em;
+    }
+}
+
+.basicInfo {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.leftSityInfo {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.infoAboutSite {
+    width: 100%;
+}
+
+.additionalInfo {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 30px;
+}
+
+.logInRegBlock {
+    width: 80%;
+    border: 1px solid #D1D7E0;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.logInRegBlock div {
+    border: 0px solid silver;
+    width: 49%;
+    height: 100%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+
+.logInRegBorder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.findBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logInRegBorder button {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 10px;
+    background: #D1D7E0;
+    color: #4C495D;
+    font-family: "Comfortaa";
+}
+
+.findBlock button {
+    width: 50%;
+    margin-left: 25%;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background: #D1D7E0;
+    color: #4C495D;
+    font-family: "Comfortaa";
+    font-size: 0.6em;
+}
+
+.logInRegBorder button:hover, .findBlock button:hover {
+    cursor: pointer;
+    background: #802BB1;
+    color: #D1D7E0;
+}
+
+.logInRegBorder button:active, .findBlock button:active {
+    background: #564F6F;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 950px) {
+    .logInRegBlock {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logInRegBlock div {
+        width: 88%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .logInRegBorder {
+        margin-top: 3%;
+    }
+
+    .logInRegBorder button {
+        width: 96%;
+        margin-left: 2%;
+        font-size: 0.5em;
+    }
+
+    .findBlock button {
+        width: 96%;
+        margin-left: 2%;
+        font-size: 0.5em;
+    }
+
+    .logInRegBlock {
+        padding: 2%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .basicInfo {
+        font-size: 1.3em;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .basicInfo {
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .basicInfo {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 2300px) {
+    .basicInfo {
+        font-size: 2.5em;
+    }
+}

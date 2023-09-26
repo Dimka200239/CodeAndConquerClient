@@ -1,0 +1,198 @@
+/* Стили для страницы "О сайте" */
+.basicInfoAboutSitePage {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.leftSityInfoPage {
+    width: 60%;
+}
+
+.rightSiteInfoPage {
+    width: 25%;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.authorInfoBlockPage {
+    border: 1px solid #D1D7E0;
+    border-radius: 5px;
+    height: 500px;
+    box-shadow: inset 0 0 20px 10px rgba(0, 0, 0, .75);
+}
+
+.mainInfoBlockPage {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 10px;
+}
+
+.mainInfoBlockPage div {
+    width: 44%;
+    margin-top: 10px;
+}
+
+.imgAuthorPage {
+    border: 0px solid #D1D7E0;
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 200px;
+    max-height: 200px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.imgAuthorPage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.MNLBlock {
+    margin-left: 20px;
+}
+
+.infoAboutAuthorPage {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.infoAboutAuthorPage ul {
+    font-size: 0.85em;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1470px) {
+    .rightSiteInfoPage {
+        font-size: 0.9em;
+    }
+
+    .authorInfoBlockPage {
+        height: 450px;
+    }
+
+    .imgAuthorPage {
+        min-width: 130px;
+        max-width: 130px;
+        min-height: 173px;
+        max-height: 173px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .leftSityInfoPage {
+        width: 50%;
+    }
+
+    .rightSiteInfoPage {
+        width: 35%;
+    }
+
+    .rightSiteInfoPage {
+        font-size: 0.8em;
+    }
+
+    .authorInfoBlockPage {
+        height: 400px;
+    }
+
+    .imgAuthorPage {
+        min-width: 110px;
+        max-width: 110px;
+        min-height: 146px;
+        max-height: 146px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .rightSiteInfoPage {
+        font-size: 0.7em;
+    }
+
+    .authorInfoBlockPage {
+        height: 350px;
+    }
+
+    .imgAuthorPage {
+        min-width: 85px;
+        max-width: 85px;
+        min-height: 113px;
+        max-height: 113px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .basicInfoAboutSitePage {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftSityInfoPage {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .rightSiteInfoPage {
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 50px;
+        font-size: 0.9em;
+    }
+
+    .imgAuthorPage {
+        min-width: 150px;
+        max-width: 150px;
+        min-height: 200px;
+        max-height: 200px;
+    }
+
+    .authorInfoBlockPage {
+        height: 550px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .leftSityInfoPage {
+        font-size: 1.5em;
+    }
+
+    .rightSiteInfoPage {
+        font-size: 1.3em;
+    }
+
+    .imgAuthorPage {
+        min-width: 170px;
+        max-width: 170px;
+        min-height: 226px;
+        max-height: 226px;
+    }
+
+    .authorInfoBlockPage {
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .leftSityInfoPage {
+        font-size: 1.6em;
+    }
+
+    .rightSiteInfoPage {
+        font-size: 1.4em;
+    }
+
+    .imgAuthorPage {
+        min-width: 190px;
+        max-width: 190px;
+        min-height: 253px;
+        max-height: 253px;
+    }
+
+    .authorInfoBlockPage {
+        height: 650px;
+    }
+}
